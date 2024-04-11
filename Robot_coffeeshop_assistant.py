@@ -4,7 +4,6 @@
 print("Hello and Welcome to our Coffee Shop!!!!!!")
 idiot = input("Nigga what tf is your name?!!\n")
 
-#Stopping Ben from entering
 if idiot == "Ben":
     print("Get TF out Evil Ben!" )
 else:
@@ -21,3 +20,6 @@ else:
    price = 8
    total = price * int(quantity)
    print("Your total comes down to " + "$" + str(total))
+
+
+
