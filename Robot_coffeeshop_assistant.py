@@ -10,21 +10,30 @@ if idiot == "Ben":
   if evil_status == "yes":
     print("Get TF out Evil Ben!")
   else:
-       print("What would you like to order?")
-       menu = input("Coffee or Tea?\n")
+    print("What would you like to order?")
+    menu = input("Black Coffee, Tea, Latte, Expresso?\n")
 
-       quantity = input("How many cups would you like?\n")
+    quantity = input("How many cups would you like?\n")
 
-       print("Hello " + idiot + ". Thanks for coming :)\n")
+    print("Hello " + idiot + ". Thanks for coming :)\n")
 
-       print("Your " + menu + " will be ready in 5 minutes ;)")
-       price = 8
-       total = price * int(quantity)
-       print("Your total comes down to " + "$" + str(total))
+    print("Your " + menu + " will be ready in 5 minutes ;)")
+
+    price = 0
+    if menu == "Black Coffee":
+      price = 3
+    elif menu == "Tea":
+      price = 5
+    elif menu == "Latte":
+      price = 5
+    elif menu == "Expresso":
+      price = 13 
+    total = price * int(quantity)
+    print("Your total comes down to " + "$" + str(total))
 else:
   #Asking for customer's orders
    print("What would you like to order?")
-   menu = input("Coffee or Tea?\n")
+   menu = input("Black Coffee, Tea, Latte, Expresso?\n")
 
    quantity = input("How many cups would you like?\n")
 
@@ -32,6 +41,14 @@ else:
 
    print("Your " + menu + " will be ready in 5 minutes ;)")
 
-   price = 8
+   price = 0
+   if menu == "Black Coffee":
+      price = 3
+   elif menu == "Tea":
+      price = 5
+   elif menu == "Latte":
+      price = 5
+   elif menu == "Expresso":
+      price = 13 
    total = price * int(quantity)
    print("Your total comes down to " + "$" + str(total))
