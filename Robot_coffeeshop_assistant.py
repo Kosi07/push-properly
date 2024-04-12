@@ -36,5 +36,7 @@ else:
    total = price * int(quantity)
    print("Your total comes down to " + "$" + str(total))
 
+   print(2 + 2)
+
 
 
