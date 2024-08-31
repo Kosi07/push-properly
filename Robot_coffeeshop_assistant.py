@@ -1,6 +1,5 @@
 # We are practicing python ... IT'S AWESOME
-#print("Hello World. \n" + "I am Iron Man. \n" + "No, I am Tony Stark.")
-#print("Poppy\n" * 10)
+
 print("Hello and Welcome to our Coffee Shop!!!!!!")
 idiot = input("Nigga what tf is your name?!!\n")
 
